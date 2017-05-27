@@ -2,7 +2,7 @@
 
 ## Introduction
 
-After we public [Proposal: Enhance HeroElement](https://discourse.wicg.io/t/proposal-enhance-heroelement/2163), we got a suggestion from @AshleyScirra which is very interesting. We could expand it to element priorities. 
+After we public [Proposal: Enhance HeroElement](https://discourse.wicg.io/t/proposal-enhance-heroelement/2163), we got a suggestion from Ashley which is very interesting. We could expand it to element priorities. 
 
 ### Three Element Priorities
 
