@@ -6,7 +6,7 @@ After we public [Proposal: Enhance HeroElement](https://discourse.wicg.io/t/prop
 
 ### Three Element Priorities
 
-Element Priorities specific by web developers to tell UA which element is important/unimportant.
+Element Priorities specified by web developers to tell UA which element is important/unimportant.
 
  1. High: Critical elements to users, like: elements display at first screen...
  2. Moderate: Default value.
@@ -18,8 +18,8 @@ With element priorities, we could optimize like this:
 
 - Parse optimization:
 	- High: Start layout immediately after this element loaded. (Speed up first screen paint)
-	- Moderate: Layout after got N nodes, or layout after Ts parse period.
-	- Low: Layout after got 2N nodes, or layout after 2Ts parse period.(Reduce whole page loading time.)
+	- Moderate: Layout after got N nodes, or layout after T ms parsing period.
+	- Low: Layout after got 2N nodes, or layout after 2T ms parsing period.(Reduce whole page loading time.)
 
 - Animations with priorities
 	- Low：Pause these animations while they are out of viewport.
