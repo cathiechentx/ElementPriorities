@@ -1,10 +1,13 @@
 # ElementPriorities
 
-## Introduce
+## Introduction
 
-After we public [Proposal: Enhance HeroElement](https://discourse.wicg.io/t/proposal-enhance-heroelement/2163), we received an idea of element priorities suggested by @AshleyScirra is very interesting. Here are the Scenarios I thought about:
+After we public [Proposal: Enhance HeroElement](https://discourse.wicg.io/t/proposal-enhance-heroelement/2163), we got a suggestion from @AshleyScirra which is very interesting. We could expand it to element priorities. 
 
 ### Three Element Priorities
+
+Element Priorities specific by web developers to tell UA which element is important/unimportant.
+
  1. High: Critical elements to users, like: elements display at first screen...
  2. Moderate: Default value.
  3. Low: Elements that usually users won't care, like: advertisement, license info, comments in some pages...
