@@ -31,7 +31,7 @@ With element priorities, we could optimize like this:
 	- Low: No need to process [TextAutoSize](https://docs.google.com/document/d/1PPcEwAhXJJ1TQShor29KWB17KJJq7UJOM34oHwYP3Zg/edit#heading=h.kzw6s3kvr392).
 
 - Scroll
-	- Don't paint low priority element during fast scrolling.
+	- Don't paint low priority element during fast scrolling.(Need to consider about layers)
 
 - Others
 	- Element priorities could be a hint to UA while it's optimizing.
