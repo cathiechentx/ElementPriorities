@@ -30,5 +30,14 @@ With element priorities, we could optimize like this:
 - Text content with priorities
 	- Low: No need to process [TextAutoSize](https://docs.google.com/document/d/1PPcEwAhXJJ1TQShor29KWB17KJJq7UJOM34oHwYP3Zg/edit#heading=h.kzw6s3kvr392).
 
+- Scroll
+	- Don't paint low priority element during fast scrolling.
+
 - Others
 	- Element priorities could be a hint to UA while it's optimizing.
+
+
+## Things need to figure out
+
+- How to priority? Importance seems ambiguous. Easy to miss use.
+- Specify the exact result that web developers could expect.
